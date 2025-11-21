@@ -1,0 +1,13 @@
+<%- include('partials/header') %>
+<div class="container">
+  <div class = postcreate>
+    <form class="create" action="/newpost" method="POST">
+      <label class= title for="fname">TITLE</label><br />
+      <input type="text" id="fname" name="fname" /><br />
+      <label class="content" for="lname">CONTENT</label><br />
+      <textarea id="lname" name="lname"></textarea>
+      <button type="submit">SUBMIT</button>
+    </form>
+  </div>
+</div>
+<%- include('partials/footer') %>
